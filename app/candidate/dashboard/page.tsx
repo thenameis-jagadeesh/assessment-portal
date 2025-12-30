@@ -129,8 +129,12 @@ export default function CandidateDashboard() {
                     <div className="max-w-7xl mx-auto px-6 py-4">
                         <div className="flex justify-between items-center">
                             <div>
-                                <h1 className="text-2xl font-bold text-gray-900 dark:text-white">Welcome, {user.name}!</h1>
-                                <p className="text-gray-600 dark:text-gray-400 text-sm">{user.email}</p>
+                                <div className="flex items-center gap-2 mb-1">
+                                    <h1 className="text-xl font-bold text-gray-900 dark:text-white">VinavalAI</h1>
+                                    <span className="text-gray-400 dark:text-gray-600">•</span>
+                                    <span className="text-sm text-gray-600 dark:text-gray-400">Assessment Portal</span>
+                                </div>
+                                <p className="text-gray-600 dark:text-gray-400 text-sm">Welcome, {user.name} • {user.email}</p>
                             </div>
                             <div className="flex items-center gap-3">
                                 <ThemeToggle />

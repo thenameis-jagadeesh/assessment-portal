@@ -124,13 +124,16 @@ export default function LoginPage() {
                         alt="GuhaTek Logo"
                         width={160}
                         height={64}
-                        className="h-16 w-auto mx-auto mb-6 object-contain dark:brightness-0 dark:invert"
+                        className="h-16 w-auto mx-auto mb-4 object-contain dark:brightness-0 dark:invert"
                         priority
                     />
                     <h1 className="text-2xl font-bold text-[#1e293b] dark:text-white mb-1 tracking-tight">
-                        Assessment Portal
+                        VinavalAI
                     </h1>
-                    <p className="text-[#64748b] dark:text-gray-400 text-base">
+                    <p className="text-[#64748b] dark:text-gray-400 text-sm">
+                        Assessment Portal
+                    </p>
+                    <p className="text-[#64748b] dark:text-gray-400 text-sm mt-1">
                         Sign in to continue
                     </p>
                 </div>

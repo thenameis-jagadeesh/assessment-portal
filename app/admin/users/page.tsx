@@ -219,8 +219,12 @@ export default function ManageUsersPage() {
                                 />
                                 <div className="h-8 w-px bg-gray-200 dark:bg-gray-700 mx-2" />
                                 <div>
-                                    <h1 className="text-2xl font-bold text-gray-900 dark:text-white">User Management</h1>
-                                    <p className="text-gray-600 dark:text-gray-400 text-sm">Manage candidates and examiners</p>
+                                    <div className="flex items-center gap-2">
+                                        <h1 className="text-xl font-bold text-gray-900 dark:text-white">VinavalAI</h1>
+                                        <span className="text-gray-400 dark:text-gray-600">•</span>
+                                        <span className="text-sm text-gray-600 dark:text-gray-400">Assessment Portal</span>
+                                    </div>
+                                    <p className="text-xs text-gray-500 dark:text-gray-400">User Management</p>
                                 </div>
                             </div>
                             <div className="flex items-center gap-4">

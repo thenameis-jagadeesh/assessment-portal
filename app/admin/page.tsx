@@ -110,7 +110,11 @@ export default function AdminDashboard() {
                                 />
                                 <div className="h-8 w-px bg-gray-200 dark:bg-gray-700 mx-2" />
                                 <div>
-                                    <h1 className="text-xl font-bold text-gray-900 dark:text-white">Admin Portal</h1>
+                                    <div className="flex items-center gap-2">
+                                        <h1 className="text-xl font-bold text-gray-900 dark:text-white">VinavalAI</h1>
+                                        <span className="text-gray-400 dark:text-gray-600">•</span>
+                                        <span className="text-sm text-gray-600 dark:text-gray-400">Assessment Portal</span>
+                                    </div>
                                     <p className="text-xs text-gray-500 dark:text-gray-400">Welcome back, {currentUser?.name}</p>
                                 </div>
                             </div>
